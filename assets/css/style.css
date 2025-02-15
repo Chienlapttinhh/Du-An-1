@@ -18,6 +18,14 @@ body{
     position: sticky;
     top: -28px;
 }
+.heading-lv2{
+    color: #171100;
+    font-family: var(--font-heading);
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.27;
+    letter-spacing: -0.76px;
+}
 .btn{
     color: white;
     min-width: 118px;
@@ -229,3 +237,40 @@ bottom: 6px;
   {
     margin-left: 28px;
   }
+  /* popular */
+  .popular{
+    padding: 65px 0;
+  }
+  .popular-top .desc{
+    margin-top: 16px;
+    width: 458px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    line-height: 1.67;
+  }
+  .popular-top{
+    display: flex;
+    justify-content: space-between;
+  }
+  .popular-top .control-btn{
+    background: transparent;
+   margin: 7px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+  }
+  .popular-top .control-btn:hover{
+    background: var(--primary-color);
+    color: #EBEAFF;
+    cursor: pointer;
+  }
+
+  /* popular-bot
+  .popular-bot{
+    margin-top: 6rem;
+    
+  }
+  .cart{
+    display: flex;
+  } */
