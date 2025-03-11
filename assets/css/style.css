@@ -404,4 +404,43 @@ bottom: 6px;
     font-size: 2.6rem;
     line-height: 1.54;
    }
+   /* featureds */
+   .features{
+    margin-top: 135px;
+    padding: 65px 0px;
+    position: absolute;
+   }
 
+   .features .body{
+    display:flex;
+    justify-content:space-between;
+   }
+.features .images{
+    display: flex;
+    gap: 30px;
+    
+}
+.features .images img{
+    width: 270px;
+    height: 405px;
+    border-radius: 3%;
+}
+.features .lower{
+    margin-top: 34px;
+}
+
+.features .content{
+    width: 41%;
+}
+.features .desc{
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+.features .cta-btn{
+    width: 137px;
+    height: 50px;
+    background: var(--primary-color);
+    margin-top: 32px;
+}
